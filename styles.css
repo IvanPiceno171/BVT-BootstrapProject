@@ -1,0 +1,29 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.container-fluid{
+    height: 100vh;
+}
+/* FIRST COLUMN */
+.first-col{
+}
+.user-name{
+    display: flex;
+    justify-content: space-around;
+}
+.compose-button{
+    margin-top: 30px;
+    padding-top: 60px;
+}
+.user-controls{
+    margin-top: 70px;
+}
+
+
+/* SECOND COLUMN  */
+
+.emailList{
+    margin-top: 80px;
+
+}
