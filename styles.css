@@ -7,6 +7,7 @@ body{
 }
 /* FIRST COLUMN */
 .first-col{
+    background-color: rgba(78, 142, 78, 0.381);
 }
 .user-name{
     display: flex;
@@ -19,11 +20,21 @@ body{
 .user-controls{
     margin-top: 70px;
 }
+.list-group-flush>.list-group-item{
+    background-color: rgba(78, 142, 78, 0.381);
+
+}
 
 
 /* SECOND COLUMN  */
 
-.emailList{
+.emailListContainer{
     margin-top: 80px;
-
+}
+.emailList:hover{
+    /* border: .5px dotted black; */
+    /* box-shadow: 3px -2px 3px 1px blue; */
+    box-shadow: 1px 2px 3px blue;
+    transform: scale(.9);
+    transition: 2s;
 }
