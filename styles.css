@@ -66,3 +66,17 @@ border: 5px groove rgba(78, 142, 78, 0.381);
     overflow: none;
 
 }
+.claim-prize{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* MEDIA QUERY */
+@media screen and (max-width:500px) {
+    .second-col{
+        display: none;
+    }
+    
+}
