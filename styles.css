@@ -74,9 +74,14 @@ border: 5px groove rgba(78, 142, 78, 0.381);
 
 
 /* MEDIA QUERY */
-@media screen and (max-width:500px) {
-    .second-col{
-        display: none;
+ @media screen and (max-width:700px) {
+    .user-name{
+       display: block;
     }
-    
+} 
+
+@media screen and (max-width:580px) {
+    .input-group{
+        margin-left: 100px;
+    }
 }
