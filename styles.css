@@ -1,87 +1,82 @@
-body{
-    margin: 0%;
-    padding: 0%;
+body {
+  margin: 0%;
+  padding: 0%;
 }
-.container-fluid,.row{
-    height: 100vh;
+.container-fluid,
+.row {
+  height: 100vh;
 }
 
-.navbar{
-    background-color: rgba(66, 56, 56, 0.336);
+.navbar {
+  background-color: rgba(66, 56, 56, 0.336);
 }
 
 /* FIRST COLUMN */
-.first-col{
-    background-color: rgba(78, 142, 78, 0.381);
-    overflow: hidden;
-
+.first-col {
+  background-color: rgba(78, 142, 78, 0.381);
+  overflow: hidden;
 }
-.user-name{
-    display: flex;
-    justify-content: space-around;
+.user-name {
+  display: flex;
+  justify-content: space-around;
 }
-.compose-button{
-    text-align: center;
-    margin-top: 30px;
-    padding-top: 60px;
+.compose-button {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 60px;
 }
-.user-controls{
-    margin-top: 70px;
+.user-controls {
+  margin-top: 70px;
 }
-.list-group-flush>.list-group-item{
-    background-color: rgba(78, 142, 78, 0.381);
-    overflow: hidden;
-
+.list-group-flush > .list-group-item {
+  background-color: rgba(78, 142, 78, 0.381);
+  overflow: hidden;
 }
-
 
 /* SECOND COLUMN  */
-.second-col{
-border: 5px groove rgba(78, 142, 78, 0.381);
+.second-col {
+  border: 5px groove rgba(78, 142, 78, 0.381);
 }
-.emailListContainer{
-    margin-top: 80px;
+.emailListContainer {
+  margin-top: 80px;
 }
-.emailList:hover{
-    border: 2px dotted black;
-    /* box-shadow: 3px -2px 3px 1px blue; */
-    box-shadow: 1px 2px 3px rgb(15, 15, 15);
-    transform: scale(1.02);
-    transition: 2s;
-    overflow: none;
+.emailList:hover {
+  border: 2px dotted black;
+  box-shadow: 1px 2px 3px rgb(15, 15, 15);
+  transform: scale(1.02);
+  transition: 2s;
+  overflow: none;
 }
 
 /* THIRD COLLUMN */
-
-.emailName{
-    display: flex;
-    justify-content: space-between;
-
+.emailName {
+  display: flex;
+  justify-content: space-between;
 }
-.recepients{
-    overflow: none;
+.recepients {
+  overflow: none;
 }
-.third-col{
-    border: 5px groove rgba(78, 142, 78, 0.381);
-    overflow: none;
-
+.third-col {
+  border: 5px groove rgba(78, 142, 78, 0.381);
+  overflow: none;
 }
-.claim-prize{
-    display: flex;
-    justify-content: center;
+.claim-prize {
+  display: flex;
+  justify-content: center;
 }
-
-
 
 /* MEDIA QUERY */
- @media screen and (max-width:700px) {
-    .user-name{
-       display: block;
-    }
-} 
+@media screen and (max-width: 700px) {
+  .user-name {
+    display: block;
+  }
+}
 
-@media screen and (max-width:580px) {
-    .input-group{
-        margin-left: 100px;
-    }
+@media screen and (max-width: 580px) {
+  .input-group {
+    margin-left: 100px;
+  }
+  .hideImg {
+    display: none;
+  }
 }
