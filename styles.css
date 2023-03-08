@@ -6,9 +6,9 @@ body {
 .row {
   height: 100vh;
 }
-
 .navbar {
   background-color: rgba(66, 56, 56, 0.336);
+  overflow: none;
 }
 
 /* FIRST COLUMN */
@@ -64,8 +64,17 @@ body {
   display: flex;
   justify-content: center;
 }
-
+.submit-button{
+  display: flex;
+  justify-content: center;
+}
 /* MEDIA QUERY */
+@media screen and (max-width:990px){
+  .user-controls{
+    margin-bottom: 50px;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .user-name {
     display: block;
